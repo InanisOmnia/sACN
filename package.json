@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
     "unit-tests": "jest -i",
     "test": "npm run lint && npm run build && npm run unit-tests",
     "prepublishOnly": "tsc",
